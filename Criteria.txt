@@ -1,0 +1,14 @@
+# Shashen Thenuja Gannile Gedara | 20534534 | Assignment 1 | Criteria.txt
+
+2. I thought maps and lists will be a perfect match for this program so,
+I have used array list to store the data from the txt file also, I've used array lists to store the majority of the data in objects.
+I have used maps to store the key information in the maze.
+
+3. I have separated classes according to its logics, Control for player control, Movement classes for player movement, World class for map generation
+also separate classes for the appropriate data from the txt file.
+
+4. I have added separate exceptions class for exceptions to execute gracefully and also logging for appropriate log data in some of the classes.
+
+5. I have used the strategy pattern for the movement of the player since it uses movement commands where I thought the strategy pattern will utilize the purpose.
+
+6. I have used the decorator pattern to output the messages to the user such as Key data and maze messages.

@@ -1,0 +1,167 @@
+/* public void addGrid(int x, int y) {
+        data.add(x);
+        data.add(y);
+    }
+
+    public void addWallH(int x, int y) {
+        data.add(x);
+        data.add(y);
+    }
+
+    public void addWallV(int x, int y) {
+        data.add(x);
+        data.add(y);
+    }
+
+    public void addStart(int x, int y) {
+        data.add(x);
+        data.add(y);
+    }
+
+    public void addEnd(int x, int y) {
+        data.add(x);
+        data.add(y);
+    }
+
+    public void addKey(int x, int y, int c) {
+        data.add(x);
+        data.add(y);
+        data.add(c);
+    }
+
+    public void addDoorH(int x, int y, int c) {
+        data.add(x);
+        data.add(y);
+        data.add(c);
+    }
+
+    public void addDoorV(int x, int y, int c) {
+        data.add(x);
+        data.add(y);
+        data.add(c);
+    }
+
+    public int getGrid() {
+        return data.get(0);
+    }
+
+    public int getWallH() {
+        return data.get(1);
+    }
+
+    public int getWallV() {
+        return data.get(2);
+    }
+
+    public int getStart() {
+        return data.get(3);
+    }
+
+    public int getEnd() {
+        return data.get(4);
+    }
+
+    public int getKey() {
+        return data.get(5);
+    }
+
+    public int getDoorH() {
+        return data.get(6);
+    }
+
+    public int getDoorV() {
+        return data.get(7);
+    } */
+
+
+    //addWallV(Integer.parseInt(parts[1]), Integer.parseInt(parts[2]));
+
+
+
+        /* public void moveUp(String[][] grid, World maze) {
+        int playerX = getPlayerPositionX(grid, maze);
+        int playerY = getPlayerPositionY(grid, maze);
+        if (availableKeyMap.containsValue(grid[playerX-1][playerY])) {
+            grid[playerX][playerY] = " ";
+            grid[playerX-(maze.getOriX()-(maze.getOriX()/2))][playerY] = "P";
+        }else {
+            if (playerX > 1 && grid[playerX-(maze.getOriX()-(maze.getOriX()/2)-1)][playerY].equals(" ")) {
+                grid[playerX][playerY] = " ";
+                grid[playerX-(maze.getOriX()-(maze.getOriX()/2))][playerY] = "P";   
+            }else {
+                System.out.println("Cannot Move!");
+            }
+        }
+    }
+
+    public void moveDown(String[][] grid, World maze) {
+        int playerX = getPlayerPositionX(grid, maze);
+        int playerY = getPlayerPositionY(grid, maze);
+        if (availableKeyMap.containsValue(grid[playerX+1][playerY])) {
+            grid[playerX][playerY] = " ";
+            grid[playerX+(maze.getOriX()-(maze.getOriX()/2))][playerY] = "P";
+        }else {
+            if (playerX < maze.getRows()-2 && grid[playerX+(maze.getOriX()-(maze.getOriX()/2)-1)][playerY].equals(" ")) {
+                grid[playerX][playerY] = " ";
+                grid[playerX+(maze.getOriX()-(maze.getOriX()/2))][playerY] = "P";   
+            }else {
+                System.out.println("Cannot Move!");
+            }
+        }
+    }
+
+    public void moveLeft(String[][] grid, World maze) {
+        int playerX = getPlayerPositionX(grid, maze);
+        int playerY = getPlayerPositionY(grid, maze);
+        if (availableKeyMap.containsValue(grid[playerX][playerY-2])) {
+            grid[playerX][playerY] = " ";
+            grid[playerX][playerY-maze.getOriY()] = "P";
+        }else {
+            if (playerY > 0 && grid[playerX][playerY-(maze.getOriY()/2)].equals(" ")) {
+                grid[playerX][playerY] = " ";
+                grid[playerX][playerY-maze.getOriY()] = "P";
+            }else {
+                System.out.println("Cannot Move!");
+            }
+        }
+    }
+
+    public void moveRight(String[][] grid, World maze) {
+        int playerX = getPlayerPositionX(grid, maze);
+        int playerY = getPlayerPositionY(grid, maze);
+        if (availableKeyMap.containsValue(grid[playerX][playerY+2])) {
+            grid[playerX][playerY] = " ";
+            grid[playerX][playerY+maze.getOriY()] = "P";
+        }else {
+            if (playerY < maze.getCols()-4 && grid[playerX][playerY+(maze.getOriY()/2)].equals(" ")) {
+                grid[playerX][playerY] = " ";
+                grid[playerX][playerY+maze.getOriY()] = "P";
+            }else {
+                System.out.println("Cannot Move!");
+            }
+        }
+    }
+
+    public int getPlayerPositionX(String[][] grid, World maze) {
+        int playerX=0;
+        for (int i = 0; i < maze.getRows(); i++) {
+            for (int j = 0; j < maze.getCols(); j++) {
+                if (grid[i][j].equals("P")) {
+                    playerX = i;
+                }
+            }
+        }
+        return playerX;
+    }
+
+    public int getPlayerPositionY(String[][] grid, World maze) {
+        int playerY=0;
+        for (int i = 0; i < maze.getRows(); i++) {
+            for (int j = 0; j < maze.getCols(); j++) {
+                if (grid[i][j].equals("P")) {
+                    playerY = j;
+                }
+            }
+        }
+        return playerY;
+    } */
